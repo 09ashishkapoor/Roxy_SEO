@@ -1,6 +1,5 @@
 # roxy-seo
 
-![Roxy SEO logo](assets/roxy-logo.png)
 ![Roxy SEO social card](assets/roxy-social-card.png)
 
 Public home for **Roxy SEO**:
