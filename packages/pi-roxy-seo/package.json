@@ -1,0 +1,48 @@
+{
+  "name": "@ashish/pi-roxy-seo",
+  "version": "0.1.0",
+  "description": "PI extension scaffold companion for the Roxy SEO public skill.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "pi",
+    "omp",
+    "oh-my-pi",
+    "seo",
+    "aeo",
+    "geo",
+    "skill",
+    "agent"
+  ],
+  "files": [
+    "dist",
+    "index.ts",
+    "README.md"
+  ],
+  "omp": {
+    "extensions": [
+      "./dist/index.js"
+    ]
+  },
+  "peerDependencies": {
+    "@oh-my-pi/pi-coding-agent": ">=14.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
