@@ -1,6 +1,7 @@
 # roxy-seo
 
 ![Roxy SEO logo](assets/roxy-logo.png)
+![Roxy SEO social card](assets/roxy-social-card.png)
 
 Public home for **Roxy SEO**:
 - an installable agent skill for SEO, AEO, GEO, AI search visibility, crawl/indexation audits, structured data, and content strategy
@@ -46,3 +47,11 @@ Then load the extension in PI/OMP using an explicit extension path or config ent
 ## Status
 
 This repository is structured for public release as `09ashishkapoor/Roxy_SEO`. The npm package name is reserved as `@ashish/pi-roxy-seo`; publish that package separately when you are ready for npm distribution.
+
+## Release Checklist
+
+```bash
+git push --force-with-lease origin main
+npx skills add 09ashishkapoor/Roxy_SEO --list
+npx skills add 09ashishkapoor/Roxy_SEO --skill roxy-seo -a pi
+```
