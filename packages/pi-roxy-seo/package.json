@@ -1,7 +1,17 @@
 {
   "name": "@unseated7635/pi-roxy-seo",
   "version": "0.1.0",
-  "description": "PI extension scaffold companion for the Roxy SEO public skill.",
+  "description": "Roxy SEO extension for pi-coding-agent with an installable SEO, AEO, and GEO skill companion.",
+  "author": "Ashish Kapoor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/09ashishkapoor/Roxy_SEO.git",
+    "directory": "packages/pi-roxy-seo"
+  },
+  "homepage": "https://github.com/09ashishkapoor/Roxy_SEO/tree/main/packages/pi-roxy-seo#readme",
+  "bugs": {
+    "url": "https://github.com/09ashishkapoor/Roxy_SEO/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -18,6 +28,7 @@
   },
   "keywords": [
     "pi",
+    "pi-coding-agent",
     "omp",
     "oh-my-pi",
     "seo",
@@ -31,6 +42,9 @@
     "index.ts",
     "README.md"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "omp": {
     "extensions": [
       "./dist/index.js"
@@ -43,6 +57,7 @@
     "typescript": "^5.9.3"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   }
 }
