@@ -1,4 +1,4 @@
-# npm publish notes for @ashish/pi-roxy-seo
+# npm publish notes for @unseated7635/pi-roxy-seo
 
 ## Package path
 
@@ -9,7 +9,7 @@ cd packages/pi-roxy-seo
 ## Pre-publish checks
 
 1. Confirm package name availability on npm.
-2. Confirm you are logged in to npm with the account that owns the `@ashish` scope.
+2. Confirm you are logged in to npm with the account that owns the `@unseated7635` scope.
 3. Review package contents:
    ```bash
    npm pack --dry-run

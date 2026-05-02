@@ -1,4 +1,4 @@
-# @ashish/pi-roxy-seo
+# @unseated7635/pi-roxy-seo
 
 Companion **PI extension scaffold** for the public **Roxy SEO** skill.
 
@@ -21,7 +21,7 @@ npx skills add 09ashishkapoor/Roxy_SEO --skill roxy-seo -a pi
 ## Install after publish
 
 ```bash
-npm install @ashish/pi-roxy-seo
+npm install @unseated7635/pi-roxy-seo
 ```
 
 ## Load the extension
@@ -29,7 +29,7 @@ npm install @ashish/pi-roxy-seo
 Examples:
 
 ```bash
-omp --extension ./node_modules/@ashish/pi-roxy-seo/dist/index.js
+omp --extension ./node_modules/@unseated7635/pi-roxy-seo/dist/index.js
 ```
 
 Or add the path to your OMP/PI extension config.
